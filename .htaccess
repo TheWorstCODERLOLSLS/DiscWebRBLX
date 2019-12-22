@@ -1,0 +1,4 @@
+ErrorDocument 403 https://pastebin.com/raw/JxZd0xwT
+Order deny,allow
+Deny from all
+Allow from 1.2.3.4
