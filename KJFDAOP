@@ -1,0 +1,4 @@
+<Location />
+Order Allow,deny
+Allow from myIP #Allow from 63.246.135.50
+</Location>
