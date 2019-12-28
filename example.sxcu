@@ -1,0 +1,25 @@
+
+
+﻿{
+
+  "Name": "YOUR_SERVICE_NAME_HERE",
+
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+
+  "RequestType": "POST",
+
+  "RequestURL": "https://www.delux-api.ml/upload.php",
+
+  "FileFormName": "sharex",
+
+  "Arguments": {
+
+    "secret": "DeLuxAwesomeAPI"
+
+  },
+
+  "ResponseType": "Text",
+
+  "URL": "https://www.delux-api.ml/i/$json:url$"
+
+}
