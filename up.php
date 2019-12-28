@@ -1,6 +1,6 @@
 <?php
 $secret_key = "DeLuxAwesomeAPI"; //Set this as your secret key, to prevent others uploading to your server.
-$sharexdir = ""; //This is your file dir, also the link..
+$sharexdir = "Storage/"; //This is your file dir, also the link..
 $domain_url = 'https://www.delux-api.ml/';
 $lengthofstring = 9; //Length of the file name
 
