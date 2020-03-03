@@ -1,5 +1,5 @@
 # HTTrack Website Copier Cookie File
 # This file format is compatible with Netscape cookies
-.discord.gg	TRUE	/	FALSE	1999999999	__cfduid	d731840c5d11f3d11c41a458d2f280fc41574898690
-.discordapp.com	TRUE	/	FALSE	1999999999	__cfduid	d7cd906891a010addbf51de495e17594d1574898778
+.geekprank.com	TRUE	/	FALSE	1999999999	__cfduid	d384927445e563047c3e8fae7a40e814b1583206864
+geekprank.com	TRUE	/	FALSE	1999999999	SameSite	Lax
 
