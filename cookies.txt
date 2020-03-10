@@ -1,5 +1,7 @@
 # HTTrack Website Copier Cookie File
 # This file format is compatible with Netscape cookies
-.geekprank.com	TRUE	/	FALSE	1999999999	__cfduid	d384927445e563047c3e8fae7a40e814b1583206864
-geekprank.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.aztupscripts.xyz	TRUE	/	FALSE	1999999999	__cfduid	d1071c7381f88a72821c068c3b7a70b5a1583875359
+obfuscator.aztupscripts.xyz	TRUE	/	FALSE	1999999999	SameSite	Lax
+.cloudflare.com	TRUE	/	FALSE	1999999999	__cfduid	dc5d637393bf7fbb6fb2aea4a8c8f09af1583875362
+ajax.cloudflare.com	TRUE	/	FALSE	1999999999	SameSite	Lax
 
