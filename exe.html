@@ -2,8 +2,19 @@
 <html>
   
    <body>
-      <form action="https://www.w3docs.com/" method="get" target="_blank">
-         <button type="submit">Execute</button>
-      </form>
+      <button onclick="myFunction()">test</button>
+
+<div id="myDIV">
+  print("test")
+</div>
+     function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
    </body>
+  
 </html>
