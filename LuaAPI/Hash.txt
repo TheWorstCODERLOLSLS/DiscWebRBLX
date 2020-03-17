@@ -1,0 +1,13 @@
+local Hash
+for i, v in pairs(getreg()) do
+    if type(v) == 'function' then
+        for i2, v2 in pairs(getupvalues(v)) do
+            if type(v2) == 'table' and v2.FireServer then
+                Hash = v2
+            end
+        end
+    end
+end
+function RunRemoteHash(Value)
+    Hash:FireServer(unpack(Value))
+end
