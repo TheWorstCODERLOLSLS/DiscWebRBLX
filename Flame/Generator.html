@@ -1,40 +1,20 @@
 <!DOCTYPE HTML> 
-<html> 
-  
- 
-  
-<body style="text-align:center;"
-   
-    <p id="GFG_UP" 
+<html> <p id="GFG_UP" 
        style="font-size: 19px; 
               font-weight: bold;"> 
     </p> 
-   
-    <p id="GFG_DOWN" 
-       style="color: green;  
-              font-size: 24px;  
-              font-weight: bold;"> 
-    </p> 
-
-    <script> 
-        var up = document.getElementById('GFG_UP'); 
-        var down = document.getElementById('GFG_DOWN'); 
-        up.innerHTML =  
-          ''; 
+  <script>
+function makeid(length) {
+   var result           = '';
+   var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+   var charactersLength = characters.length;
+   for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   return result;
+}
+         var up = document.getElementById('GFG_UP'); 
+  up.innerHTML = makeid(50);
+  </script>
   
-        function randomStr(len, arr) { 
-            var ans = ''; 
-            for (var i = len; i > 0; i--) { 
-                ans +=  
-                  arr[Math.floor(Math.random() * arr.length)]; 
-            } 
-            return ans; 
-        } 
-  
-        function GFG_Fun() { 
-            down.innerHTML = randomStr(20, '1234567890qwertyuiopasdfghjklzxcvbnm'); 
-        } 
-    </script> 
-</body> 
-  <script>GFG_Fun();</script>
 </html> 
