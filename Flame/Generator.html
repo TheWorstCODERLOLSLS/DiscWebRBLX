@@ -140,32 +140,46 @@
   <h2>Random String Generator</h2>
 
 
-<p>Here are your random strings:</p>
-<pre class="data">
-6465220371
-8363224727
-4362705688
-3234210451
-3118886219
-6211520473
-8539616423
-7328948775
-3271133119
-3383077031
-</pre>
-<p>Timestamp: 2020-04-07 03:16:24 UTC</p>
 
-    <p></p>
-    <form method="get" action="">
-      <input type="hidden" name="num" value="10" />
-      <input type="hidden" name="len" value="10" />
-<input type="hidden" name="digits" value="on" />
-<input type="hidden" name="unique" value="on" />
-      <input type="hidden" name="format" value="html" />
-      <input type="hidden" name="rnd" value="new" />
-      <input type="submit" value="Again!" />
-      <input type="button" onclick="history.go(-1);" value="Go Back" />
-    </form>
+  <p>This form allows you to generate random text strings.  The
+  randomness comes from atmospheric noise, which for many purposes
+  is better than the pseudo-random number algorithms typically
+  used in computer programs.</p>
+
+  <form method="get" action="">
+
+  <h3>Part 1: The Strings</h3>
+
+  <p>Generate <input type="text" name="num" value="10" size="6" maxlength="12" /> random strings (maximum <abbr title="Buy a Plus Subscription and raise this to 50,000.">10,000</abbr>).</p>
+
+  <p>Each string should be <input type="text" name="len" value="10" size="6" maxlength="12" /> characters long (maximum <abbr title="Buy a Plus Subscription and raise this to 50.">20</abbr>).</p>
+
+  <p>Which characters are allowed to occur in the strings?<br />
+  <label><input class="indented" type="checkbox" name="digits" checked="checked" /> Numeric digits (0-9)</label><br />
+  <label><input class="indented" type="checkbox" name="upperalpha" /> Uppercase letters (A-Z)</label><br />
+  <label><input class="indented" type="checkbox" name="loweralpha" /> Lowercase letters (a-z)</label></p>
+
+  <p>Do you want each string to be unique?<br />
+  <label><input class="indented" type="radio" name="unique" value="on" checked="checked" /> Each string should be unique (like raffle tickets)</label><br />
+  <label><input class="indented" type="radio" name="unique" value="off" /> Identical strings are allowed (like dice rolls)</label></p>
+
+  <input type="hidden" name="format" value="html" />
+  <input type="hidden" name="rnd" value="new" />
+
+  <h3>Part 2: Go!</h3>
+
+  <p>Be patient!  It may take a little while to generate your strings...</p>
+
+  <p>
+    <input type="submit" value="Get Strings" />
+    <input type="reset" value="Reset Form" onclick="form.reset();" />
+    <input type="button" class="indented" value="Switch to Advanced Mode" onclick="javascript:window.location.href='https://www.random.org/strings/?mode=advanced';" />
+  </p>
+
+  </form>
+
+  <p>Need more strings than this form supports? Check out our <a href="https://files.random.org/">File Generation Service</a>.</p>
+
   <p></p>
   <div class="ruler"></div>
 
