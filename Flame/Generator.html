@@ -1,3 +1,41 @@
-<HTML>
-  <head><b><script> Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);</script></b></head>
-</HTML>
+<!DOCTYPE HTML> 
+<html> 
+  
+ 
+  
+<body style="text-align:center;"
+   
+    <p id="GFG_UP" 
+       style="font-size: 19px; 
+              font-weight: bold;"> 
+    </p> 
+   
+    <p id="GFG_DOWN" 
+       style="color: green;  
+              font-size: 24px;  
+              font-weight: bold;"> 
+    </p> 
+
+    <script> 
+        var up = document.getElementById('GFG_UP'); 
+        var down = document.getElementById('GFG_DOWN'); 
+        up.innerHTML =  
+          'Click on the button to generate alpha-numeric string'; 
+  
+        function randomStr(len, arr) { 
+            var ans = ''; 
+            for (var i = len; i > 0; i--) { 
+                ans +=  
+                  arr[Math.floor(Math.random() * arr.length)]; 
+            } 
+            return ans; 
+        } 
+  
+        function GFG_Fun() { 
+            down.innerHTML = randomStr(20, '1234567890qwertyuiopasdfghjklzxcvbnm'); 
+        } 
+    </script> 
+GFG_Fun();
+</body> 
+  
+</html> 
