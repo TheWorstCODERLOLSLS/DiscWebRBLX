@@ -1,0 +1,17 @@
+<Window x:Class="Testing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Testing"
+        mc:Ignorable="d"
+        Title="Testing stuff" Height="356.558" Width="641.394" ResizeMode="NoResize" BorderBrush="#FF24DC91" Foreground="White" Background="White" Topmost="True" WindowStyle="None">
+    <Grid Background="#FF1D1A1A">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="373*"/>
+            <ColumnDefinition Width="186*"/>
+            <ColumnDefinition Width="76*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#FF3C3CDE" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="641" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
