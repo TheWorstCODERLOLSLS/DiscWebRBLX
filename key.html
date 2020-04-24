@@ -34,13 +34,15 @@
 <span class="card-desc">This is your validation key, by validating the whitelist key you will gain access
 to a free version of "Dansploit", by proceeding use of the software you agree to Pain Exist Ltd <a href="https://RoHacks.com/tos">ToS</a> and
 all the <a href="https://RoHacks.com/privacy">Data</a> that will be collected to further help us with analytics.</span>
-<div class="key-container">
-<span class="card-icon"><i class="material-icons">vpn_key</i></span>
-<input id="key" class="card-key" value="bdd3136842db7c2ddafe825e59afc3a8fa5329bf" type="text">
+<script>
+            var captchacb = function(){
+                document.getElementById("captchacheck").submit();
+            }
+        </script>
+<form id="captchacheck" method="POST" style="text-align:center">
+<div style="display:inline-block" class="g-recaptcha" data-sitekey="6LcWgq8UAAAAAKkhVckMif_PCSkLn0ubcK9VqQdT" data-callback="captchacb">
 </div>
-<div class="card-actions">
-<button onclick="copyThatShit()" class="card-button">Copy Key</button>
-</div>
+</form>
 
 </div>
 <div class="site-card">
